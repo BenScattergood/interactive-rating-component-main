@@ -57,8 +57,6 @@ button {
     font-family: inherit;
 }
 
-
-
 p,
 .ratings {
     color: hsl(217, 12%, 63%);
@@ -68,6 +66,11 @@ p,
 li :hover {
     background-color: hsl(25, 97%, 53%);
     cursor: pointer;
+    color: white;
+}
+
+li :focus {
+    background-color: hsl(217, 12%, 63%);
     color: white;
 }
 
